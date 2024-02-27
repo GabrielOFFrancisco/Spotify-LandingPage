@@ -21,7 +21,7 @@ export function BottomBar() {
 
   return (
     <div className='flex items-center bg-stone-900 border-t-2 border-stone-800 h-28 w-screen fixed bottom-0'>
-      <div className='flex flex-row items-center ml-8'>
+      <div className='flex flex-row items-center ml-6'>
         <img src='/imagem-exemplo.jpg' className='w-16 h-16 rounded-sm mt-2' />
         <div>
           <h2 className='text-white font-semibold text-base ml-4 mt-4 hover:underline cursor-pointer'>
@@ -51,7 +51,7 @@ export function BottomBar() {
           <span className='text-xs text-zinc-500'>6:41</span>
         </div>
       </div>
-      <div className='flex items-center space-x-5 mr-6 ml-64 mt-3'>
+      <div className='flex items-center space-x-5 ml-72 mt-3'>
         <button>
           <Mic2 color='white' size={20} />
         </button>
