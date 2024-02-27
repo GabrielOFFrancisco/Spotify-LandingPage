@@ -6,7 +6,7 @@ import { ArrowDownCircle } from 'lucide-react';
 
 export function SideBar() {
   return (
-    <div className='flex flex-col fixed flex-shrink-0 bg-black h-screen w-72'>
+    <div className='flex flex-col fixed flex-shrink-0 bg-black h-screen w-60'>
       <div className='flex flex-col items-center'>
         <img src='/spotify-logo.svg' alt='Logo spotify' className='w-36 mt-2' />
       </div>

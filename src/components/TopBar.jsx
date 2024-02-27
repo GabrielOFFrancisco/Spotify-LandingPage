@@ -4,8 +4,8 @@ import { ChevronDown } from 'lucide-react';
 
 export function TopBar() {
   return (
-    <div className='flex flex-row w-full ml-80 h-14 bg-transparent justify-between'>
-      <div className='flex mt-3 space-x-4 mr-96'>
+    <div className='flex flex-row fixed w-full h-14 bg-transparent justify-between'>
+      <div className='flex mt-3 space-x-4 ml-72 mr-96'>
         <button>
           <ChevronLeftCircle
             size={28}
@@ -24,7 +24,7 @@ export function TopBar() {
         </button>
       </div>
 
-      <button className='flex mt-5 mr-12 items-center bg-neutral-950 w-32 h-8 rounded-2xl'>
+      <button className='flex mt-5 mr-6 items-center bg-neutral-950 w-32 h-8 rounded-2xl'>
         <img
           src='/foto-usuario.jpeg'
           alt='user-image'
