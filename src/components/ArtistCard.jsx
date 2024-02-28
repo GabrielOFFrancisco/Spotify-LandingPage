@@ -9,7 +9,7 @@ export function ArtistCard({ icon, title }) {
         {title}
       </h2>
       <h3 className='text-zinc-500 text-left ml-4 text-sm font-medium'>
-        Artista
+        Artist
       </h3>
     </button>
   );
