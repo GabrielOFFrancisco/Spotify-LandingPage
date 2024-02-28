@@ -24,7 +24,7 @@ export function TopBar() {
         </button>
       </div>
 
-      <button className='flex mt-5 mr-6 items-center bg-neutral-950 w-32 h-8 rounded-2xl'>
+      <button className='flex mt-5 mr-12 items-center bg-neutral-950 w-32 h-8 rounded-2xl'>
         <img
           src='/foto-usuario.jpeg'
           alt='user-image'
