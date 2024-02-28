@@ -13,8 +13,8 @@ function App() {
         <h1 className='text-white font-semibold text-3xl ml-1'>Good morning</h1>
         <div className='flex flex-row mt-6 gap-8 ml-1'>
           <Usercards icon={'/heart.svg'} title='Liked songs' />
-          <Usercards icon={'/imagem-exemplo.jpg'} title='Nome' />
-          <Usercards icon={'/imagem-exemplo.jpg'} title='Nome' />
+          <Usercards icon={'/top-brazil.jpg'} title='Top 50 - Brazil' />
+          <Usercards icon={'/imagem-exemplo.jpg'} title='América Brasil' />
         </div>
       </div>
     </div>
