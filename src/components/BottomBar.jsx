@@ -13,10 +13,12 @@ import {
 } from 'lucide-react';
 
 export function BottomBar() {
-  const [heartColor, setHeartColor] = useState('');
+  const [heartColor, setHeartColor] = useState('transparent');
 
   function handleClick() {
-    setHeartColor((prevColor) => (prevColor === '' ? 'green' : ''));
+    setHeartColor((prevColor) =>
+      prevColor === 'transparent' ? '#1DB954' : 'transparent'
+    );
   }
 
   return (
@@ -32,14 +34,14 @@ export function BottomBar() {
           </h2>
         </div>
         <button className='ml-6 mt-6' onClick={handleClick}>
-          <Heart fill={heartColor} color='transparent' />
+          <Heart fill={heartColor} color='white' strokeWidth={0.2} />
         </button>
       </div>
-      <div className='flex flex-col items-center ml-64'>
+      <div className='flex flex-col items-center ml-auto'>
         <div className='flex items-center gap-3 space-x-4'>
           <Shuffle color='white' />
           <SkipBack color='white' fill='white' />
-          <PlayCircle size={50} color='white' strokeWidth={1} />
+          <PlayCircle size={50} color='white' strokeWidth={0.5} />
           <SkipForward color='white' fill='white' />
           <Repeat color='white' />
         </div>
@@ -51,7 +53,7 @@ export function BottomBar() {
           <span className='text-xs text-zinc-500'>6:41</span>
         </div>
       </div>
-      <div className='flex items-center space-x-5 ml-72 mt-3'>
+      <div className='flex items-center space-x-5 ml-auto mr-6 mt-3'>
         <button>
           <Mic2 color='white' size={20} />
         </button>
