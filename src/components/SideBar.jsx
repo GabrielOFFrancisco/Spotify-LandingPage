@@ -47,7 +47,7 @@ export function SideBar() {
         </h2>
       </button>
 
-      <button className='flex flex-row space-x-8 mt-24 w-56 h-12 ml-2 hover:bg-stone-800 rounded-md'>
+      <button className='flex flex-row space-x-8 mt-auto mb-32 w-56 h-12 ml-2 hover:bg-stone-800 rounded-md'>
         <ArrowDownCircle color='white' size={28} className='ml-3 mt-2' />
         <h2 className='text-white font-semibold text-lg ml-4 mt-2'>
           Install app
