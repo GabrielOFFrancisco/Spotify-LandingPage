@@ -39,11 +39,16 @@ export function BottomBar() {
       </div>
       <div className='flex flex-col items-center ml-auto'>
         <div className='flex items-center gap-3 space-x-4'>
-          <Shuffle color='white' size={18} />
-          <SkipBack color='white' fill='white' size={18} />
-          <PlayCircle size={50} color='white' strokeWidth={0.5} />
-          <SkipForward color='white' fill='white' size={18} />
-          <Repeat color='white' size={18} />
+          <Shuffle color='white' size={18} className='cursor-pointer' />
+          <SkipBack color='white' size={18} className='cursor-pointer' />
+          <PlayCircle
+            size={50}
+            color='white'
+            strokeWidth={0.5}
+            className='cursor-pointer'
+          />
+          <SkipForward color='white' size={18} className='cursor-pointer' />
+          <Repeat color='white' size={18} className='cursor-pointer' />
         </div>
         <div className='flex items-center gap-2 space-y-4'>
           <span className='text-xs text-zinc-500 mt-4'>2:15</span>

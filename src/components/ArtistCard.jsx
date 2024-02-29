@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export function ArtistCard({ icon, title }) {
   return (
     <button className='flex flex-col w-56 h-72 bg-zinc-800 rounded-md hover:bg-zinc-700'>
@@ -14,3 +16,8 @@ export function ArtistCard({ icon, title }) {
     </button>
   );
 }
+
+ArtistCard.propTypes = {
+  icon: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+};
